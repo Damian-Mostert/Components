@@ -1,6 +1,5 @@
 "use client";
 
-import "./jsonedit.scss";
 import Draggable, { DraggableCore } from 'react-draggable';
 import hljs from 'highlight.js';
 import json from 'highlight.js/lib/languages/json';
