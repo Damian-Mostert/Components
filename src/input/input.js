@@ -2,8 +2,6 @@
 
 //v2 input component
 
-import "./input.scss";
-
 import { useRef, useImperativeHandle, forwardRef, useState, Component } from "react";
 
 import { v4 as uuid } from "uuid";
