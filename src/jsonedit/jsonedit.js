@@ -5,7 +5,7 @@ import hljs from 'highlight.js';
 import json from 'highlight.js/lib/languages/json';
 hljs.registerLanguage('json', json);
 import 'highlight.js/styles/nord.css';
-import { Button, Popup, Accordion, JsonEditLog as ReadLog, Nav } from "@components";
+import { Button, Popup, Accordion, JsonEditLog as ReadLog, Nav } from "../";
 import { useEffect, useState } from "react";
 import { Resizable } from 're-resizable';
 
