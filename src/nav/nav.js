@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import "./nav.scss";
 import { Popup, Button } from "@components";
 
 export default function Nav({ indexes = [], tabs = [], tab = "", variant = "default", warnOnExit, setWarnOnExit, orientation = "top", buttons = null, buttonClass = "" }) {
