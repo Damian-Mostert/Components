@@ -1,9 +1,6 @@
 "use client";
 import { useState } from "react";
 
-//styles
-import "./popup.scss";
-
 //imports
 
 import { Button, Modal } from "@components";
