@@ -2,8 +2,8 @@
 import { useState } from "react";
 
 //imports
-import {Button} from "../../button/button";
-import { Modal } from "@components";
+import { Button} from "components";
+import { Popup } from "@components";
 function Icons({ icon }) {
   switch (icon) {
     case "approved":
