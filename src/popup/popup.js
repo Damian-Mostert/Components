@@ -3,7 +3,7 @@ import { useState } from "react";
 
 //imports
 import { Button} from "components";
-import { Modal } from "@components";
+
 function Icons({ icon }) {
   switch (icon) {
     case "approved":
@@ -191,6 +191,7 @@ function Contents({
   confirmButton,
 }) {
   if (modal) {
+	  const Modal = modal;
     return <Modal modalData={modal} Resolve={Resolve} />;
   }
   return (
