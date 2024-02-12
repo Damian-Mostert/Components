@@ -1,9 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Button} from "components";
-import { Popup } from "@components";
-
+import { Button,Popup} from "components";
 export default function Nav({ indexes = [], tabs = [], tab = "", variant = "default", warnOnExit, setWarnOnExit, orientation = "top", buttons = null, buttonClass = "" }) {
 
     const [TabIndex, setIndex] = useState(indexes.indexOf(tab));
