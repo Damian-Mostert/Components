@@ -3,7 +3,7 @@ import { useState } from "react";
 
 //imports
 import { Button} from "components";
-import { Popup } from "@components";
+import { Modal } from "@components";
 function Icons({ icon }) {
   switch (icon) {
     case "approved":
