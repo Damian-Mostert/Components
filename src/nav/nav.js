@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Popup, Button } from "@components";
+import { Button} from "components";
+import { Popup } from "@components";
 
 export default function Nav({ indexes = [], tabs = [], tab = "", variant = "default", warnOnExit, setWarnOnExit, orientation = "top", buttons = null, buttonClass = "" }) {
 
