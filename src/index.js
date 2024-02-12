@@ -1,10 +1,4 @@
-//for backend logs
-export {
-    default as Logs,
-    JsonEditLog,
-    EventsLog,
-    UsersLog
-} from "./Logs/index";
+
 
 //general components
 export { default as Button } from "./button/button"
