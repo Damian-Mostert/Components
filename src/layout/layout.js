@@ -1,3 +1,5 @@
+"use cleint";
+
 export default function Layout({ type, children, className }) {
     switch (type) {
         case "section":
